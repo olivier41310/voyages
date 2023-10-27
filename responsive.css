@@ -1,0 +1,78 @@
+@media all and (max-width: 768px){
+/*Attention à l'espace qu'il faut entre and et (   */
+.hidden{display: none!important;}
+.display-mobile{display: block!important;}
+
+#topbar .coordonnees ul {display: block!important; padding: 0;}
+#topbar .ville {padding-left: 1.8em;}
+#topbar {background-color: #0791be;}
+
+#populaires form{margin-top: 0;}
+#populaires .form-label{padding-left: 3%;
+    margin-top: 3%;}
+
+.bleu img{position: relative;
+    width: 100%;
+    left: 0;
+}
+.bleu {padding:01em 0 ;} 
+.bleu .presentation{ margin-left:1%}  
+
+#chiffres .telephone{
+    width: 80%;
+    position: relative;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+.top-p{width: 94%;}
+
+
+#top .col{
+    flex: auto;
+}
+h3 {font-size: 1.5em;}
+
+.image-slider{background: url(img/img15.jpg) no-repeat 0 0 scroll #0791be;
+    background-size: cover;
+    max-height: 225px;overflow: hidden; 
+}
+
+.image-slider h1 {color: #fff; font-weight: bold; text-align: center;padding:2em ;}
+
+#page-titre-404{background:url(img/404-img.jpg) no-repeat scroll center center #000;background-size: cover;
+    position: relative;
+    text-align: center;
+    margin-top: 0;
+    z-index: -1;
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    /* lAxe principal devient vertical */
+    justify-content: center;
+    /* axe secondaire devient horizontal */
+}
+.color-h3-404 {color: #000!important;}
+#navbarSupportedContent a{color: #000!important;
+
+}
+
+}
+
+
+
+@media all and (orientation:landscape) and (max-width: 812px){
+
+    #activites h5{
+    font-weight: bolder;
+    font-size: 1em;
+    padding-top: 1em;
+}
+
+}
+@media all and (max-width: 374px){
+  #page-titre-404 .text-404 h3{font-size: 1em;
+margin-top: 1em;}  
+  #page-titre-404 .text-404 span{font-size: 5em;}  
+
+}
