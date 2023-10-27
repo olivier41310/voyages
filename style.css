@@ -312,3 +312,13 @@ footer a{color: #ccd6df;}
     font-weight: 600;
     padding: 1em 1em;
 }
+
+#newsletter{background:url(img/img16.jpg) no-repeat 0 bottom #000; background-size: cover;
+    position: relative;
+    
+}
+#newsletter div{
+    width: 30%;
+
+}
+#newsletter .news{width: 71%; margin: auto;}
