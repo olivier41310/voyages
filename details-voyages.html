@@ -122,7 +122,7 @@
                     
                     <!-- Tab panes -->
                     <div class="tab-content">
-                        <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quaerat, beatae iure deserunt, cum totam perferendis exercitationem et animi quos voluptates omnis iusto nobis culpa, quasi voluptatibus aspernatur assumenda dolor.</p></div>
+                        <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quaerat, beatae iure deserunt, cum totam perferendis exercitationem et animi quos voluptates omnis iusto nobis culpa, quasi voluptatibus aspernatur assumenda dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae harum impedit minus magni esse. Quisquam dolores est repudiandae placeat, nam soluta non facere animi amet repellendus, corporis ducimus modi blanditiis.exercitationem et animi quos voluptates omnis iusto nobis culpa, quasi voluptatibus aspernatur assumenda dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae harum impedit minus magni esse. Quisquam dolores est repudiandae placeat,Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quaerat, beatae iure deserunt, cum totam perferendis exercitationem et animi quos voluptates omnis iusto nobis culpa, quasi voluptatibus aspernatur assumenda dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae harum impedit minus magni esse. Quisquam dolores est repudiandae placeat, nam soluta non facere animi amet repellendus, corporis ducimus modi blanditiis.exercitationem et animi quos voluptates omnis iusto nobis culpa, quasi voluptatibus aspernatur assumenda dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae harum impedit minus magni esse. Quisquam dolores est repudiandae placeat,</p></div>
                         <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab" tabindex="0"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam vero dolore, non ipsam et incidunt tempora amet. Voluptatum, voluptas voluptatibus repudiandae unde nobis voluptates quod neque laboriosam hic est facere!</p></div>
                         <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab" tabindex="0">...</div>
                         <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab" tabindex="0"><iframe src="https://formation31.fr> frameborder="0"></iframe></div>
@@ -154,30 +154,35 @@
                     </div>  <!--Fin des étoiles-->
                 </div>    
                     <form action="" method="POST">
-                        <input type="submit" value="Réservation" class="btn btn-primary">
+                        <div class="btn-secondary">
+                            <h3>Réservation</h3>
+                        </div>
+                        
                         <input type="name" name="email"
                         placeholder="Nom"
-                        class="form-control">
+                        class="form-control mb-3">
                         <input type="email" name="email"
                         placeholder="Entrez votre email"
-                        class="form-control">
+                        class="form-control mb-3">
                         <input type="telephone" name="telephone"
                         placeholder="Téléphone"
-                        class="form-control">
+                        class="form-control mb-3">
                         <input type="date" name="date"
                         placeholder="Date"
                         class="Date">
-
+                        <fieldset>
+                            <legend class="mt-3">Ajouter des options</legend>
                     <div class="form-check">   
                         <input type="checkbox" name="guide" id="guide" value="guide" class="form-check-input">
                         <label for="guide" class="form-check-label">Guide touristique</label>
                     </div>
-
+                        
                     <div class="form-check">    
                         <input type="checkbox" name="assurance" id="assurance" value="assurance" checked class="form-check-input">
                         <label for="assurance" class="form-check-label">Assurance</label>
                     </div>
-                        <input type="submit" class="btn btn-primary">
+                        </fieldset>
+                        <input type="submit" class="btn btn-primary form-control mt-2">
 
                     </form>
                    <div id="infos-commerciales">
@@ -188,15 +193,15 @@
                    </div>
                         <!-- fin infos commerciales -->
 
-                   <div id="autres">
-                        <h4>Autres voyages</h4>
-                        <h5>Lorem ipsim dolor</h5>
+                   <div id="autres" class="overlay">
+                        <h4>Plus de voyages</h4>
+                        <h5>Autres séjours</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam blanditiis nostrum fugiat sit quaerat minus, quae officia iure dignissimos itaque ipsa doloribus? </p>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><i class="bi bi-arrow-right-circle-fill"></i>An item</li>
-                            <li class="list-group-item"><i class="bi bi-arrow-right-circle-fill"></i>A second item</li>
-                            <li class="list-group-item"><i class="bi bi-arrow-right-circle-fill"></i>A third item</li>
-                            <li class="list-group-item"><i class="bi bi-arrow-right-circle-fill"></i>A fourth item</li>
+                            <li class="list-group-item"><i class="bi bi-arrow-right-circle-fill"></i>Vacances</li>
+                            <li class="list-group-item"><i class="bi bi-arrow-right-circle-fill"></i>Lune de miel</li>
+                            <li class="list-group-item"><i class="bi bi-arrow-right-circle-fill"></i>Nouvel an</li>
+                            <li class="list-group-item"><i class="bi bi-arrow-right-circle-fill"></i>Week-end</li>
                         </ul>
                    </div>
             </aside>
@@ -205,10 +210,10 @@
     <section id="newsletter" class="overlay">
         <div class="d-flex flex-column justify-content-center text-white mx-auto news">
             <h4>Offres spéciales</h4>
-            <h5>Remises exceptionnelles 20%</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id vel sunt rem itaque modi saepe accusantium in velit eos perferendis aliquid quibusdam, natus distinctio minus hic exercitationem, dolor optio at.</p>
+            <h5 class="display-3 text-white">Remises exceptionnelles 20%</h5>
+            <p>Lorem ipsum dolor si t amet consectetur adipisicing elit. Id vel sunt rem itaque modi saepe accusantium in velit eos perferendis aliquid quibusdam, natus distinctio minus hic exercitationem, dolor optio at.</p>
 
-            <form action="" method="POST">
+            <form action="" method="POST" class="py-5">
                 <input type="email" name="email" placeholder="Entrez un email">
                 <input type="submit" class=""btn btn-primary">
             </form>
